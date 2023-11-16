@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+
+    <ion-button [disabled]="true ">DES-HABILITADO</ion-button>
+    <ion-button ion-button color="primary">Normal 1</ion-button>
+    <ion-button color=" succes">normal 2 </ion-button>
+    <ion-button color=" secundary">redondo 1</ion-button>
+    <ion-button color=" warning">bordes </ion-button>
+
+    <ion-button>
+      <ion-icon color="tertiary" slot="start" name="star"></ion-icon>
+      L_imagen
+    </ion-button>
+
+    <ion-button>
+      <ion-icon color="danger" slot="end" name="star"></ion-icon>
+      R_imagen
+    </ion-button>
+
+    <ion-button>
+      <ion-icon color="light" slot="icon-only" name="star"></ion-icon>
+    </ion-button>
+
+    <br>
+    <ion-icon color="medium" size="small">Small</ion-icon>
+    <br>
+    <ion-icon color="dark" size="defaul">Defaul</ion-icon>
+    <br>
+    <ion-button ion-button color="primary" fill="clear" size="large">Large</ion-button>
+  </div>
+</ion-content>

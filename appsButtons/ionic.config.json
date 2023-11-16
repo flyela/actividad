@@ -1,0 +1,7 @@
+{
+  "name": "appsButtons",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
