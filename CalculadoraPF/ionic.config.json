@@ -1,0 +1,7 @@
+{
+  "name": "CalculadoraPF",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
