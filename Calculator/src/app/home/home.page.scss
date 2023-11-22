@@ -1,0 +1,45 @@
+page-home {
+  .title {
+    text-align: center;
+    }
+
+  .display {
+    font-size: 2em;
+    text-align: right;
+    border: 1px solid #921515;
+    padding: 10px;
+    background-color: #4e0909;
+    margin-bottom: 5px;
+  }
+
+  .button {
+    margin: 5px;
+    font-size: 1.2em;
+    width: calc(20% - 10px);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+
+    &:active {
+      background-color: #e6e6e6;
+    }
+
+    &.operator {
+      color: #fff;
+      background-color: #f39c12;
+
+      &:active {
+        background-color: #e08e0b;
+      }
+    }
+
+    &.double {
+      width: calc(40% - 10px);
+    }
+  }
+}
