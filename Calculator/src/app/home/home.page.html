@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title style="left: center;">
+    <ion-title class="cont">
       Calculator
     </ion-title>
   </ion-toolbar>
@@ -15,7 +15,8 @@
     </ion-row>
     <ion-row>
       <ion-col size="3" *ngFor="let button of buttons">
-        <ion-button (click)="onButtonClick(button)" expand="full" shape="round" [class]="buttonClass(button)">{{ button }}</ion-button>
+        <ion-button (click)="onButtonClick(button)" expand="full" shape="round" 
+                    [class]="buttonClass(button)">    {{ button }} </ion-button>
       </ion-col>
     </ion-row>
   </ion-grid>
